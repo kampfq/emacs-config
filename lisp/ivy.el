@@ -1,10 +1,13 @@
 ;; ivy
-(use-package neotree
+(use-package ivy
   :ensure t
   :init
   (ivy-mode 1)
   (setq ivy-use-virtual-buffers t)
   (setq ivy-count-format "(%d/%d) "))
+(use-package counsel
+  :ensure t
+  )
 ;;keybindings
 
 (global-set-key (kbd "C-s") 'swiper)

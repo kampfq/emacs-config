@@ -24,7 +24,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (magit all-the-icons which-key counsel atom-one-dark-theme ivy))))
+    (atom-one-dark magit all-the-icons which-key counsel atom-one-dark-theme ivy))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
