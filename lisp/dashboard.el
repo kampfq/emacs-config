@@ -5,7 +5,7 @@
 ;; show dashboard in emacsclient
 (setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
 ;; show emacs icon
-(setq dashboard-startup-banner 3)
+(setq dashboard-startup-banner 'logo)
 ;;show agenda week
 (setq show-week-agenda-p t)
 ;; show dashboard items
