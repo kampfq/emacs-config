@@ -25,7 +25,7 @@
  '(custom-safe-themes
    '("cadbb10749a747faf09fdcfcecd5fd6c830ddc127e46570817904749bc841cd1" default))
  '(package-selected-packages
-   '(org-bullets golden-ratio git-gutter auctex company atom-one-dark magit all-the-icons which-key counsel atom-one-dark-theme ivy)))
+   '(dashboard org-bullets golden-ratio git-gutter auctex company atom-one-dark magit all-the-icons which-key counsel atom-one-dark-theme ivy)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
