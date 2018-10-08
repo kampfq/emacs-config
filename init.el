@@ -23,11 +23,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   (quote
-    ("cadbb10749a747faf09fdcfcecd5fd6c830ddc127e46570817904749bc841cd1" default)))
+   '("cadbb10749a747faf09fdcfcecd5fd6c830ddc127e46570817904749bc841cd1" default))
  '(package-selected-packages
-   (quote
-    (auctex company atom-one-dark magit all-the-icons which-key counsel atom-one-dark-theme ivy))))
+   '(git-gutter auctex company atom-one-dark magit all-the-icons which-key counsel atom-one-dark-theme ivy)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
