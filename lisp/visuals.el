@@ -33,3 +33,13 @@
 
 ;; line numbers (available emacs 26+)
 (global-display-line-numbers-mode)
+
+;; scale windows in split mode
+(use-package golden-ratio
+  :defer t
+  :ensure t
+  :diminish " φ"
+  :config
+  (golden-ratio-mode 1)
+  :init
+  (setq golden-ratio-auto-scale t))
