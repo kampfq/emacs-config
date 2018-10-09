@@ -3,7 +3,7 @@
 (tool-bar-mode   -1)
 (tooltip-mode    -1)
 ;;(menu-bar-mode   -1)
-
+p-mode    -1)
 ;; Fancy titlebar for MacOS
 (add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
 (add-to-list 'default-frame-alist '(ns-appearance . dark))
