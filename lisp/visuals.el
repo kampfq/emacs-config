@@ -33,3 +33,6 @@
 
 ;; line numbers (available emacs 26+)
 (global-display-line-numbers-mode)
+
+;;show char count
+(add-to-list 'global-mode-string '(" %i"))
