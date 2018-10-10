@@ -1,5 +1,5 @@
 ;; Minimal UI
-;(scroll-bar-mode -1)
+(scroll-bar-mode -1)
 (tool-bar-mode   -1)
 (tooltip-mode    -1)
 ;;(menu-bar-mode   -1)
@@ -34,5 +34,23 @@
 ;; line numbers (available emacs 26+)
 (global-display-line-numbers-mode)
 
-;;show char count
-(add-to-list 'global-mode-string '(" %i"))
+;; scale windows in split mode
+(use-package golden-ratio
+  :defer t
+  :ensure t
+  :diminish " φ"
+  :config
+  (golden-ratio-mode 1)
+  :init
+  (setq golden-ratio-auto-scale t))
+
+;; scale windows in split mode
+(use-package golden-ratio
+  :defer t
+  :ensure t
+  :diminish " φ"
+  :config
+  (golden-ratio-mode 1)
+  :init
+  (setq golden-ratio-auto-scale t))
+
