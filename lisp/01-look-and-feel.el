@@ -44,13 +44,6 @@
   :init
   (setq golden-ratio-auto-scale t))
 
-;; scale windows in split mode
-(use-package golden-ratio
-  :defer t
-  :ensure t
-  :diminish " φ"
-  :config
-  (golden-ratio-mode 1)
-  :init
-  (setq golden-ratio-auto-scale t))
+;; show char count in mode line
+(add-to-list 'global-mode-string '(" %i"))
 
