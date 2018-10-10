@@ -11,7 +11,7 @@
 ;; You may delete these explanatory comments.
 ;;(package-initialize)
 ;; this is done to avoid reinitializing
-(unless package--initialized (package-initialize t))
+(unless package--initialized (package-initialize))
 ;; Bootstrap `use-package`
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
