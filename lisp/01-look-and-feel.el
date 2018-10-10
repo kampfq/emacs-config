@@ -43,3 +43,7 @@
   (golden-ratio-mode 1)
   :init
   (setq golden-ratio-auto-scale t))
+
+;; show char count in mode line
+(add-to-list 'global-mode-string '(" %i"))
+
