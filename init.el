@@ -3,6 +3,7 @@
 (require 'package)
 (setq package-enable-at-startup nil)
 (setq package-archives '(("melpa stable" . "https://stable.melpa.org/packages/")
+			 ("marmalade" . "http://marmalade-repo.org/packages/")
 			 ("gnu" . "https://elpa.gnu.org/packages/")
 			 ("org" . "https://orgmode.org/elpa/")
 			 ("melpa" . "https://melpa.org/packages/")))
@@ -30,7 +31,7 @@
     ("cadbb10749a747faf09fdcfcecd5fd6c830ddc127e46570817904749bc841cd1" default)))
  '(package-selected-packages
    (quote
-    (projectile neotree ess latex-preview-pane visual-regexp undo-tree dashboard org-bullets golden-ratio git-gutter auctex company atom-one-dark magit all-the-icons which-key counsel atom-one-dark-theme ivy)))
+    (ox-hugo htmlize projectile neotree ess latex-preview-pane visual-regexp undo-tree dashboard org-bullets golden-ratio git-gutter auctex company atom-one-dark magit all-the-icons which-key counsel atom-one-dark-theme ivy)))
  '(pdf-latex-command "xelatex"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
