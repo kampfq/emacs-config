@@ -3,6 +3,7 @@
 (require 'package)
 (setq package-enable-at-startup nil)
 (setq package-archives '(("melpa stable" . "https://stable.melpa.org/packages/")
+			 ("marmalade" . "http://marmalade-repo.org/packages/")
 			 ("gnu" . "https://elpa.gnu.org/packages/")
 			 ("org" . "https://orgmode.org/elpa/")
 			 ("melpa" . "https://melpa.org/packages/")))
@@ -26,11 +27,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   (quote
-    ("cadbb10749a747faf09fdcfcecd5fd6c830ddc127e46570817904749bc841cd1" default)))
+   '("cadbb10749a747faf09fdcfcecd5fd6c830ddc127e46570817904749bc841cd1" default))
  '(package-selected-packages
-   (quote
-    (projectile neotree ess latex-preview-pane visual-regexp undo-tree dashboard org-bullets golden-ratio git-gutter auctex company atom-one-dark magit all-the-icons which-key counsel atom-one-dark-theme ivy)))
+   '(htmlize sass-mode json-mode yaml-mode php-mode web-mode projectile neotree ess latex-preview-pane visual-regexp undo-tree dashboard org-bullets golden-ratio git-gutter auctex company atom-one-dark magit all-the-icons which-key counsel atom-one-dark-theme ivy))
  '(pdf-latex-command "xelatex"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
