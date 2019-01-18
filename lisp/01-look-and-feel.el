@@ -47,6 +47,7 @@
 ;; show char count in mode line
 (add-to-list 'global-mode-string '(" %i"))
 
+; fixed width text even when full screen 
 (use-package olivetti
   :defer t
   :ensure t
@@ -57,14 +58,15 @@
          ("C-c ]" . nil))
   :init
   (setq olivetti-body-width 80))
-
+					;
+; outline on the left site
 (use-package imenu-list
   :ensure t
-  :bind (("C-c i" . imenu-list-smart-toggle))
+  :bind (("C-c M i" . imenu-list-smart-toggle))
   :config
   (setq imenu-list-focus-after-activation t
         imenu-list-auto-resize nil
-	imenu-list-position 'right
+	imenu-list-position 'left
 	))
 
 
