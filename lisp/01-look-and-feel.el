@@ -66,7 +66,7 @@
   :config
   (setq imenu-list-focus-after-activation t
         imenu-list-auto-resize nil
-	imenu-list-position 'left
+	imenu-list-position 'right
 	))
 
 
