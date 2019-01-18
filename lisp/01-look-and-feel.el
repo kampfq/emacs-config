@@ -47,3 +47,24 @@
 ;; show char count in mode line
 (add-to-list 'global-mode-string '(" %i"))
 
+(use-package olivetti
+  :defer t
+  :ensure t
+  :bind (("C-c M o" . olivetti-mode)
+         :map
+         olivetti-mode-map
+         ("C-c [" . nil)
+         ("C-c ]" . nil))
+  :init
+  (setq olivetti-body-width 80))
+
+(use-package imenu-list
+  :ensure t
+  :bind (("C-c i" . imenu-list-smart-toggle))
+  :config
+  (setq imenu-list-focus-after-activation t
+        imenu-list-auto-resize nil
+	imenu-list-position 'right
+	))
+
+
