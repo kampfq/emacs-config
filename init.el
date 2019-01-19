@@ -43,3 +43,5 @@
 
 ;; load all lisp files in the lisp directory, they contain custom stuff
 (mapc 'load (file-expand-wildcards "~/.emacs.d/lisp/*.el"))
+;; load credentials e.g. for mail
+(load"~/.emacs_credentials.el")
