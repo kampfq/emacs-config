@@ -29,9 +29,10 @@
  '(custom-safe-themes
    (quote
     ("cadbb10749a747faf09fdcfcecd5fd6c830ddc127e46570817904749bc841cd1" default)))
+ '(line-number-mode nil)
  '(package-selected-packages
    (quote
-    (imenu-list projectile neotree ess latex-preview-pane visual-regexp undo-tree dashboard org-bullets golden-ratio git-gutter auctex company atom-one-dark magit all-the-icons which-key counsel atom-one-dark-theme ivy)))
+    (focus projectile neotree ess latex-preview-pane visual-regexp undo-tree dashboard org-bullets golden-ratio git-gutter auctex company atom-one-dark magit all-the-icons which-key counsel atom-one-dark-theme ivy)))
  '(pdf-latex-command "xelatex"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

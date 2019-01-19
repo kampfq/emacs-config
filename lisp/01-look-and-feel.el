@@ -71,4 +71,9 @@
 	imenu-list-position 'right
 	))
 
+;; dim other than the current paragraph
+(use-package focus
+  :ensure t
+  :bind (("C-c M f" . focus-mode))
+  )
 
