@@ -25,3 +25,6 @@
 (use-package ox-hugo
   :ensure t            ;Auto-install the package from Melpa (optional)
   :after ox)
+
+					; more depth in imenu
+(setq org-imenu-depth 8)

@@ -56,9 +56,11 @@
          olivetti-mode-map
          ("C-c [" . nil)
          ("C-c ]" . nil))
+  :config
+  (add-hook 'text-mode-hook 'turn-on-olivetti-mode)
   :init
   (setq olivetti-body-width 80))
-					;
+			     
 ; outline on the left site
 (use-package imenu-list
   :ensure t
