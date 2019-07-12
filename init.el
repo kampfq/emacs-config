@@ -32,7 +32,7 @@
  '(line-number-mode nil)
  '(package-selected-packages
    (quote
-    (focus projectile neotree ess latex-preview-pane visual-regexp undo-tree dashboard org-bullets golden-ratio git-gutter auctex company atom-one-dark magit all-the-icons which-key counsel atom-one-dark-theme ivy)))
+    (treemacs-magit treemacs-icons-dired treemacs-projectile treemacs-evil treemacs focus projectile neotree ess latex-preview-pane visual-regexp undo-tree dashboard org-bullets golden-ratio git-gutter auctex company atom-one-dark magit all-the-icons which-key counsel atom-one-dark-theme ivy)))
  '(pdf-latex-command "xelatex"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

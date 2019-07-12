@@ -15,7 +15,7 @@
 (setq-default line-spacing 3)
 ;; initial window size 80x24 (default terminal)
 (add-to-list 'default-frame-alist '(height . 24))
-(add-to-list 'default-frame-alist '(width . 80))
+(add-to-list 'default-frame-alist '(width . 120))
 
 ;;atom theme
 (use-package atom-one-dark-theme
